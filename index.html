@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-color: #b5a26e;
+}
+a:hover {
+  color: white;
+}
+h3,h2,h6 {
+    color: white;
+}
+
+h5 {
+  color: white;
+}
+p {
+  color: white;
+}
+/* Header/Blog Title */
+.header {
+  padding: 0px;
+  text-align: center;
+  background: #b5a26e;
+}
+.button {
+  background-color: #003334; /* Green */
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+  padding: 7px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.header h1 {
+  font-size: 75px;
+  color: #423317;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #003334;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #B5A26E;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #423317;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 1px;
+  text-align: center;
+  background: #423317;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>RTFN</h1>
+</div>
+<div class="topnav">
+  <a href="https://rvildanov93.github.io/index.html">Главная</a>
+  <a href="#">Контакты</a>
+  <a href="#">Проекты</a>
+  <a href="#" style="float:right">О сайте</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+
+
+    <div class="card">
+      <h5>21 января, 2019</h5>
+      <h2><a style="text-decoration:none; color:#dbaa4b" href="pages\Следующий шаг в обеспечении безопасности аэропортов.html">Следующий шаг в обеспечении безопасности аэропортов</a></h2>
+      <h5>Перевод</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Сумка, видимая через рентгеновский сканер</p>
+      <p>Технологии, которые могут ускорить и увеличить эффективность проверки безопасности в аэропортах, были показаны отраслевым экспертам на демонстрационном мероприятии в Лондоне.</p>
+      <p class="button button2"><a style="text-decoration:none; color:white" href="pages\Следующий шаг в обеспечении безопасности аэропортов.html">читать дальше</a></p>
+    </div>
+
+
+    <div class="card">      
+      <h5>21 января, 2019</h5>
+      <h2><a style="text-decoration:none; color:#dbaa4b" href="pages\Li-Fi Будущее интернета.html">Li-Fi: Будущее интернета</a></h2>
+      <h5>Перевод</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Представьте себе время, когда каждая из лампочек в вашем доме будет источником интернета. Вообразите сценарий, когда, простояв под лампочкой в течение лишь одной минуты, вы скачали бы около 5 фильмов в формате HD. Звучит круто, верно? Но благодаря технологии Li-Fi эта мечта может стать реальностью. С помощью данной технологии мы можем переосмыслить роль света как такового.</p>
+      <p class="button button2"><a style="text-decoration:none; color:white" href="pages\Li-Fi Будущее интернета.html">читать дальше</a></p>
+    </div>
+
+
+    <div class="card">      
+      <h5>21 января, 2019</h5>
+      <h2><a style="text-decoration:none; color:#dbaa4b
+" href="pages\Интернет вещей которые плачут по хорошему UI UX.html">Интернет вещей… которые плачут по хорошему UI / UX</a></h2>
+      <h5>Перевод</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Египетские иероглифы или обозначения кнопок на стиралке?</p>
+      <p>Я думаю, что, чисто теоретически, мы бы уже могли подключить большинство существующих ныне устройств к интернету, этим и порожден растущий интерес к Интернету Вещей (IoT). Получим ли мы от этого большую пользу — уже другой вопрос.</p>
+      <p class="button button2"><a style="text-decoration:none; color:white" href="pages\Интернет вещей которые плачут по хорошему UI UX.html">читать дальше</a></p>
+    </div>
+
+
+    <div class="card">      
+      <h5>21 января, 2019</h5>
+      <h2><a style="text-decoration:none; color:#dbaa4b
+" href="pages\rvildanov93.github.io/pages/В 2018 мы наконец стали воспринимать всерьез время, проведенное за смартфоном.html">В 2018 мы наконец стали воспринимать всерьез время, проведенное за смартфоном</a></h2>
+      <h5>Перевод</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>В начале этого года я зашла на Amazon со своего айфона чтобы посмотреть что нового там появилось, и увидела обложку книги «Как Расстаться С Вашим Телефоном» от Кэтрин Прайс. Я загрузила эту книжку на Kindle, потому что я действительно хотела уменьшить время которое провожу со своим смартфоном, но также и потому, что подумала, будет глупо читать книгу о расставании со своим смартфоном на своем смартфоне.</p>
+      <p class="button button2"><a style="text-decoration:none; color:white" href="pages\rvildanov93.github.io/pages/В 2018 мы наконец стали воспринимать всерьез время, проведенное за смартфоном.html">читать дальше</a></p>
+    </div>
+
+
+    <div class="card">      
+      <h5>21 января, 2019</h5>
+      <h2><a style="text-decoration:none; color:#dbaa4b
+" href="">Очередная статья о том, как выбрать смартфон</a></h2>
+      <h5>Перевод</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Довольно часто наши решения о покупке чего-либо основаны на мнениях людей, на которых мы рассчитываем или за которыми следим в социальных сетях, и брендах/устройствах, которые эти люди предпочитают.
+      Выбор, основанный на этих критериях, может принести удовлетворение только на какое-то мгновение, но чтобы получать удовольствие от использования смартфона в дальнейшем, нужно быть немного осмотрительнее.</p>
+      <p class="button button2"><a style="text-decoration:none; color:white" href="">читать дальше</a></p>
+    </div>
+
+  </div>
+ <div class="rightcolumn">
+    <div class="card">
+      <h2 style="color:white">Patreon</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+
+
+    <div class="card">
+      <h3>Популярное</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Подписывайся</h3>
+      <p><a style="text-decoration:none; color:#dbaa4b" href="https://twitter.com/novaMAN4">Twitter</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h6> Copyright 2019 by Ramil Vildanov</h6>
+  <h6>All Rights Reserved</h6>
+</div>
+</body>
+</html>
