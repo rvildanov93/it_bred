@@ -9,7 +9,7 @@ body {
 a:hover {
   color: white;
 }
-h2,h3,h5,h6,p {
+h2,h3,h5,h6,p,li {
     color: white;
 }
 /* Header/Blog Title */
