@@ -6,6 +6,9 @@ body {
   padding: 10px;
   background-color: #b5a26e;
 }
+p {
+	line-height: 150%;
+}
 a:hover {
   color: white;
 }
