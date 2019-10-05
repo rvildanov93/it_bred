@@ -6,6 +6,10 @@ body {
   padding: 10px;
   background-color: #b5a26e;
 }
+#social-media-icons {
+  display: inline-block;
+  margin-right: 6px
+}
 p,li {
 	line-height: 150%;
 }
