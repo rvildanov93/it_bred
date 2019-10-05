@@ -6,7 +6,7 @@ body {
   padding: 10px;
   background-color: #b5a26e;
 }
-p {
+p,li {
 	line-height: 150%;
 }
 a:hover {
