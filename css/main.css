@@ -5,7 +5,6 @@ body {
   font-family: Arial;
   padding: 10px;
   background-color: #b5a26e;
-  text-justify: inter-word;
 }
 #social-media-icons {
   display: inline-block;
@@ -25,6 +24,7 @@ h1 {
 }
 h2,h3,h5,h6,p,li {
     color: white;
+    text-justify: inter-word;
 }
 img {
   max-width: 100%;
