@@ -143,4 +143,7 @@ img {
 	h1 {
 	font-size: 150%;	
 	}
+	.footer {
+	line-height: 100%
+	}
 }
