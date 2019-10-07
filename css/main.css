@@ -12,6 +12,8 @@ body {
 }
 p,li {
 	line-height: 160%;
+	text-align: justify;
+	text-justify: inter-word;
 }
 a:hover {
   color: white;
