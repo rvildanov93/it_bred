@@ -85,6 +85,7 @@ img {
 /* Right column */
 .rightcolumn {
   float: left;
+  position: sticky;
   width: 25%;
   background-color: #B5A26E;
   padding-left: 20px;
@@ -101,6 +102,7 @@ img {
 .popular {
   background-color: #423317;
   text-decoration: none;
+  position: sticky;	
   width: 100%;
   padding: 2px;
   padding: 20px;
