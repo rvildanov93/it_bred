@@ -85,7 +85,6 @@ img {
 /* Right column */
 .rightcolumn {
   float: left;
-  position: sticky;
   width: 25%;
   background-color: #B5A26E;
   padding-left: 20px;
@@ -101,12 +100,16 @@ img {
 /* Popular articles block */
 .popular {
   background-color: #423317;
-  text-decoration: none;
-  position: sticky;	
+  text-decoration: none;	
   width: 100%;
   padding: 2px;
   padding: 20px;
   margin-top: 20px;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 /* Add a card effect for articles */
 .card {
