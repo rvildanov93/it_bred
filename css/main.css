@@ -9,7 +9,7 @@ body {
 .sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 2.91em;	
+    top: 2.88em;	
   }
 #social-media-icons {
   display: inline-block;
@@ -143,7 +143,7 @@ img {
 .topnav {
     position: -webkit-sticky;
     position: sticky;
-    top: 0.3em;	
+    top: 0;	
   }
 }
 
