@@ -13,16 +13,13 @@ body {
 p,li {
 	line-height: 160%;
 }
-a:hover {
-  color: white;
-}
 #about {
   float:right
 }
 h1 {
    color:#dbaa4b;
 }
-h2,h3,h5,h6,p,li {
+a:hover,h2,h3,h5,h6,p,li {
     color: white;
 }
 img {
