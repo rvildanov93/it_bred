@@ -9,7 +9,7 @@ body {
 .sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 4em;	
+    top: 3.5em;	
   }
 #social-media-icons {
   display: inline-block;
