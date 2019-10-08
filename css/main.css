@@ -136,6 +136,7 @@ img {
   .topnav a {
     float: none;
     width: 100%;
+    font-size: 200%;  
   }
 	h1 {
 	font-size: 150%;	
