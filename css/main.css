@@ -59,13 +59,12 @@ a:link, a:visited {
   /*padding: 7px 9px;
   text-align: center;*/
   font-family: Arial;
-  color: yellow; 
   text-decoration: none;
   display: inline-block;
 }
 
 a:hover, a:active {
-  color: #dbaa4b;
+  color: #005254;
 }
 .header h1 {
   font-size: 75px;
