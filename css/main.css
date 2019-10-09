@@ -54,7 +54,6 @@ img {
   margin: 2px 2px;
   cursor: pointer;
 }
-
 /*Изменение цвета гиперссылок при наведении на них курсора мышши*/
 a:link, a:visited {
   /*padding: 7px 9px;
@@ -64,36 +63,9 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-
 a:hover, a:active {
   color: #ffcc69;
 }
-
-.white a:link, a:visited {
-  /*padding: 7px 9px;
-  text-align: center;*/
-  font-family: Arial;
-  color: white; 
-  text-decoration: none;
-  display: inline-block;
-  background-color: #003334;
-  border: 1px solid white;
-  border-radius: 2px;
-  color: white;
-  padding: 7px 9px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  cursor: pointer;
-}
-.white a:hover, a:active {
-  color: #ffcc69;
-}
-
-
-
 .header h1 {
   font-size: 75px;
   color: #423317;
