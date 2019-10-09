@@ -41,22 +41,6 @@ img {
   text-align: center;
   background: #b5a26e;
 }
-.button a {
-  background-color: #003334;
-  border: 1px solid white;
-  border-radius: 2px;
-  color: white;
-  padding: 7px 9px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  cursor: pointer;
-}
-.button:hover a, button:active a {
-  color: #ffcc69;
-}
 /*Изменение цвета гиперссылок при наведении на них курсора мышши*/
 a:link, a:visited {
   /*padding: 7px 9px;
@@ -105,11 +89,6 @@ a:hover, a:active {
   background-color: #B5A26E;
   padding-left: 20px;
 }
-/*
-#yellow-font-color {  
-  color: #dbaa4b;
-  text-decoration: none;
-}*/
 /* Popular articles block */
 .popular {
   background-color: #423317;
