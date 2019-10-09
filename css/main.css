@@ -55,17 +55,19 @@ img {
   cursor: pointer;
   transition-duration: 0.4s;
 }
+
+/*Изменение цвета гиперссылок при наведении на них курсора мышши*/
 a:link, a:visited {
   /*padding: 7px 9px;
   text-align: center;*/
   font-family: Arial;
-  color: black; 
+  color: #dbaa4b; 
   text-decoration: none;
   display: inline-block;
 }
 
 a:hover, a:active {
-  color: red;
+  color: #ffc657;
 }
 .header h1 {
   font-size: 75px;
@@ -107,10 +109,10 @@ a:hover, a:active {
   color: white;
   text-decoration: none;
 }
-#yellow-font-color {  
+/*#yellow-font-color {  
   color: #dbaa4b;
   text-decoration: none;
-}
+}*/
 /* Popular articles block */
 .popular {
   background-color: #423317;
