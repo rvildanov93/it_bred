@@ -53,7 +53,6 @@ img {
   font-size: 16px;
   margin: 2px 2px;
   cursor: pointer;
-  transition-duration: 0.4s;
 }
 
 /*Изменение цвета гиперссылок при наведении на них курсора мышши*/
@@ -77,6 +76,17 @@ a:hover, a:active {
   color: white; 
   text-decoration: none;
   display: inline-block;
+  background-color: #003334;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+  padding: 7px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
 }
 .white a:hover, a:active {
   color: #ffcc69;
