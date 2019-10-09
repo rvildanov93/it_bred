@@ -6,13 +6,6 @@ body {
   padding: 10px;
   background-color: #b5a26e;
 }
-
-
-.card p a {
-	font-weight: bold;
-}
-
-
 figcaption {
 	color: white;
 }
