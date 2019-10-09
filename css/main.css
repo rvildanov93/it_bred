@@ -54,6 +54,9 @@ img {
   margin: 2px 2px;
   cursor: pointer;
 }
+.button:hover, button:active {
+  color: #ffcc69;
+}
 /*Изменение цвета гиперссылок при наведении на них курсора мышши*/
 a:link, a:visited {
   /*padding: 7px 9px;
