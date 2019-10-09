@@ -24,7 +24,7 @@ p,li {
 h1 {
    color:#dbaa4b;
 }
-a:hover,h2,h3,h5,h6,p,li {
+h2,h3,h5,h6,p,li {
     color: white;
 }
 img {
@@ -41,8 +41,8 @@ img {
   text-align: center;
   background: #b5a26e;
 }
-.button {
-  background-color: #003334; /* Green */
+/*.button {
+  background-color: #003334;
   border: 1px solid white;
   border-radius: 2px;
   color: white;
@@ -54,10 +54,33 @@ img {
   margin: 2px 2px;
   cursor: pointer;
   transition-duration: 0.4s;
-}
-.button2:hover {
+}*/
+/*.button2:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}*/
+
+
+
+/*NEW BLOCK*/
+a:link, a:visited {
+  background-color: #003334;
+  color: white;
+  padding: 7px 9px;
+  text-align: center;
+  font-family: Arial;
+  text-decoration: none;
+  display: inline-block;
 }
+
+a:hover, a:active {
+  background-color: #005254;
+}
+/*NEW BLOCK ENDS*/
+
+
+
+
+
 .header h1 {
   font-size: 75px;
   color: #423317;
