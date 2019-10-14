@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #b5a26e;
+  font-family: Arial;
+  padding: 10px;  
+}
+p,li {
+	line-height: 160%;
+}
+h1 {
+  color:#dbaa4b;
+}
+figcaption,h2,h3,h5,h6,p,li {
+  color: white;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Changing hypertext color when mouse cursor interacts */
+a:link, a:visited {
+  display: inline-block;
+  color: #dbaa4b;
+  font-family: Arial;  
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #ffcc69;
+}
+/* Header Title */
+.header {
+  background: #b5a26e;
+  margin: -30px;
+  padding: 0px;
+  text-align: center;
+}
+.header h1 {
+  color: #423317;
+  font-size: 55px;
+}
+/* Style the top navigation bar */
+.topnav {
+  background-color: #003334;
+  overflow: hidden;
+}
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  color: #f2f2f2;
+  float: left;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Change color of top navbar on hover */
+.topnav a:hover {
+  background-color: #ccc;
+  color: black;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+/* Right column */
+.rightcolumn {
+  background-color: #B5A26E;
+  float: left;
+  padding-left: 20px;
+  width: 25%;
+}
+/* Popular articles block */
+.popular {
+  background-color: #423317;
+  margin-top: 20px;
+  padding: 2px;
+  padding: 20px;
+  text-decoration: none;	
+  width: 100%;  
+}
+/* Add a card effect for articles */
+.card {
+  background-color: #423317;
+  margin-top: 20px;
+  padding: 20px;  
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Footer/Copyright block */
+.footer {
+  background: #423317;
+  margin-top: 20px; 
+  padding: 1px;
+  text-align: center;  
+}
+/* Making white-space between social media icons */
+.social {
+  display: inline-block;
+  margin-right: 6px;
+}
+.about {
+  float:right;
+}
+/* Making two right columns stick
+to the right side when scrolling */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2.89em;  
+}
+/* Responsive layout - when the screen is less
+than 800px wide, make the two columns stack
+on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn   {   
+    padding: 0;
+    width: 100%;        	  
+  }     
+}
+@media screen and (min-width: 800px) {
+  .topnav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;	
+  }
+}
+/* Responsive layout - when the screen is less
+than 500px wide, make the navigation links stack
+on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .topnav a {
+    font-size: 110%;
+    float: none;
+    width: 100%;      
+  }
+	h1 {
+	  font-size: 150%;	
+	}
+	h6 {
+	  line-height: 30%;
+	}
+}
