@@ -153,7 +153,7 @@ on top of each other instead of next to each other */
 	   display: none;
 	}
 	.card {
-           margin-top: 10px;
-  	   padding: 10px;  
+           margin-top: 5px;
+  	   padding: 5px;  
 }
 }
