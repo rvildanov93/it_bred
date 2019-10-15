@@ -152,4 +152,8 @@ on top of each other instead of next to each other */
 	.hidden {
 	   display: none;
 	}
+	.card {
+           margin-top: 10px;
+  	   padding: 10px;  
+}
 }
