@@ -122,6 +122,7 @@ to the right side when scrolling */
 .button {
   display: inline-block;
   border-radius: 3px;
+  border: 2px, white;
   background-color: #003334;
   border: none;
   color: #FFFFFF;
