@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 body {
-  touch-action: pan-y;
   background-color: #b5a26e;
   font-family: Arial;
   padding: 10px;  
