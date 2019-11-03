@@ -126,6 +126,10 @@ on top of each other instead of next to each other */
     padding: 0;
     width: 100%;        	  
   }
+	body {
+  padding: 5px;  
+}
+p,l
 }
 @media screen and (min-width: 800px) {
   .topnav {
