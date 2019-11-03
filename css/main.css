@@ -188,14 +188,14 @@ on top of each other instead of next to each other */
     display: block;
     position: -webkit-sticky;
     position: sticky;
-    top: 0; 
+    top: 2.89em; 
   }
   .topnav.responsive {position: sticky;}
   .topnav.responsive .icon {
     position: absolute;
     
     right: 0;
-    top: 0;
+    top: 2.89em;
   }
   .topnav.responsive a {
     float: none;
@@ -203,7 +203,7 @@ on top of each other instead of next to each other */
     text-align: left;
     position: -webkit-sticky;
     position: sticky;
-    top: 25; 
+    top: 2.89em; 
   }
 }
 @media screen and (min-width: 800px) {
