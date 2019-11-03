@@ -203,7 +203,7 @@ on top of each other instead of next to each other */
     text-align: left;
     position: -webkit-sticky;
     position: sticky;
-    top: 0; 
+    top: 25; 
   }
 }
 @media screen and (min-width: 800px) {
