@@ -125,9 +125,6 @@ on top of each other instead of next to each other */
   .leftcolumn, .rightcolumn   {   
     padding: 0;
     width: 100%;        	  
-  }     
-  .card {
-    padding: 0px;
   }
 }
 @media screen and (min-width: 800px) {
