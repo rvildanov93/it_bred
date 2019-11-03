@@ -127,7 +127,7 @@ on top of each other instead of next to each other */
     width: 100%;        	  
   }
    body {
-  padding: 5px;  
+  padding: -5px;  
   }
 }
 @media screen and (min-width: 800px) {
