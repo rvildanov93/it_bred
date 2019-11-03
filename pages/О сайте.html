@@ -5,22 +5,25 @@
   <meta name = "description" content="О сайте">
   <meta name = "keywords" content="Информация,FAQ,О сайте">
   <meta name = "author" content="Ramil Vildanov">
-  <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0, user-scalable = no"/>
 <title>RTFN</title>
 <link rel="shortcut icon" type="image/x-icon" href="https://rvildanov93.github.io/img/other/title-image.png"/>  
 <link rel="stylesheet" href="https://rvildanov93.github.io/css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!--Site name-->
-<div class="header">
+<!--<div class="header">
   <h1>RTFN</h1>
-</div>
+</div>-->
 <!--Top navbar-->
-<div class="topnav">
+<div class="topnav" id="myTopnav">
+  <a href="https://rvildanov93.github.io/index.html">RTFN</a>
   <a href="https://rvildanov93.github.io/index.html">Главная</a>
   <a href="Контакты.html">Контакты</a>
   <a href="#">Проекты</a>
-  <a class="about" href="О сайте.html">О сайте</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i></a>
 </div>
 <!--Main part (left column)-->
 <div class="row">
@@ -56,5 +59,6 @@
   <h6>Copyright &#169; 2019 by Ramil Vildanov</h6>
   <h6>All Rights Reserved</h6>
 </div>
+<script src="js\topnav.js"></script>
 </body>
 </html>
