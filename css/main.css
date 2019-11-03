@@ -151,5 +151,8 @@ on top of each other instead of next to each other */
 	}
 	.hidden {
 	   display: none;
-	}	
+	}
+	h2 {
+	   font-size: 70%;	
+	}
 }
