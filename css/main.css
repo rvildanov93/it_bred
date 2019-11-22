@@ -105,7 +105,11 @@ to the right side when scrolling */
 
 
 
+
 .progress-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2.89em;  
   width: 100%;
   height: 8px;
   background: #ccc;
