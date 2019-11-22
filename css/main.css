@@ -101,32 +101,6 @@ to the right side when scrolling */
   position: sticky;
   top: 2.89em;  
 }
-
-
-
-
-
-.progress-container {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 2.89em;  
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-}
-
-.progress-bar {
-  height: 8px;
-  background: #4caf50;
-  width: 0%;
-}
-
-.content {
-  padding: 100px 0;
-  margin: 50px auto 0 auto;
-  width: 80%;
-
-
 .topnav {
   overflow: hidden;
   background-color: #003334;
