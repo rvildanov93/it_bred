@@ -94,7 +94,7 @@ a:hover, a:active {
 }
 /* Popular articles block */
 .popular {
-  background-color: #222831;
+  background-color: #393E46;
   margin-top: 20px;
   padding: 2px;
   padding: 20px;
@@ -115,7 +115,7 @@ a:hover, a:active {
 }
 /* Footer/Copyright block */
 .footer {
-  background: #222831;
+  background: #393E46;
   margin-top: 20px; 
   padding: 1px;
   text-align: center;  
@@ -123,6 +123,7 @@ a:hover, a:active {
 /* Making white-space between social media icons */
 .social {
   display: inline-block;
+  background: #393E46;
   margin-right: 6px;
 }
 .social:hover {
