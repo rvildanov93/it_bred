@@ -3,7 +3,7 @@
 }
 body {
   touch-action: pan-y;
-  background-color: #b5a26e;
+  background-color: #00ADB5;
   font-family: Arial;
   padding: 10px;  
 }
@@ -11,7 +11,7 @@ body {
 
 .button {
   border-radius: 4px;
-  background-color: #003334;
+  background-color: #393E46;
   border: 1px solid white;
   border-radius: 2px;
   color: #FFFFFF;
@@ -53,7 +53,7 @@ p,li {
 	line-height: 160%;
 }
 h1 {
-  color:#dbaa4b;
+  color: #00ADB5;
 }
 figcaption,h2,h3,h5,h6,p,li {
   color: white;
@@ -68,7 +68,7 @@ img {
 /* Changing hypertext color when mouse cursor interacts */
 a:link, a:visited {
   display: inline-block;
-  color: #dbaa4b;
+  color: #00ADB5;
   font-family: Arial;  
   text-decoration: none;
 }
@@ -77,13 +77,13 @@ a:hover, a:active {
 }
 /* Header Title */
 .header {
-  background: #b5a26e;
+  background: #00ADB5;
   margin: -30px;
   padding: 0px;
   text-align: center;
 }
 .header h1 {
-  color: #423317;
+  color: #222831;
   font-size: 55px;
 }
 
@@ -95,14 +95,14 @@ a:hover, a:active {
 }
 /* Right column */
 .rightcolumn {
-  background-color: #B5A26E;
+  background-color: #00ADB5;
   float: left;
   padding-left: 20px;
   width: 25%;
 }
 /* Popular articles block */
 .popular {
-  background-color: #423317;
+  background-color: #222831;
   margin-top: 20px;
   padding: 2px;
   padding: 20px;
@@ -111,7 +111,7 @@ a:hover, a:active {
 }
 /* Add a card effect for articles */
 .card {
-  background-color: #423317;
+  background-color: #222831;
   margin-top: 20px;
   padding: 20px;  
 }
@@ -123,7 +123,7 @@ a:hover, a:active {
 }
 /* Footer/Copyright block */
 .footer {
-  background: #423317;
+  background: #222831;
   margin-top: 20px; 
   padding: 1px;
   text-align: center;  
@@ -148,7 +148,7 @@ to the right side when scrolling */
 }
 .topnav {
   overflow: hidden;
-  background-color: #003334;
+  background-color: #393E46;
   position: sticky;
   z-index: 10;
   top: 0;
