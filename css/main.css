@@ -45,10 +45,10 @@ body {
 p,li {
 	line-height: 160%;
 }
-h1,h2,h3 {
-  color: #ffcc69;
+h1 {
+  color: #eeeeee;
 }
-figcaption,h5,h6,p,li {
+figcaption,h2,h3,h5,h6,p,li {
   color: #eeeeee;
 }
 img {
@@ -65,7 +65,7 @@ a:link, a:visited {
   text-decoration: none;
 }
 a:hover, a:active {
-  color: #eeeeee;
+  color: #ffcc69;
 }
 /* Header Title */
 .header {
@@ -75,7 +75,7 @@ a:hover, a:active {
   text-align: center;
 }
 .header h1 {
-  color: #ffcc69;
+  color: #eeeeee;
   font-size: 55px;
 }
 
