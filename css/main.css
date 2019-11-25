@@ -120,6 +120,13 @@ a:hover, a:active {
   padding: 1px;
   text-align: center;  
 }
+.social {
+  display: inline-block;
+  margin-right: 6px;
+}
+.social:hover {
+    opacity: 0.8;
+}
 .about {
   float:right;
 }
