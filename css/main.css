@@ -120,13 +120,6 @@ a:hover, a:active {
   padding: 1px;
   text-align: center;  
 }
-/* Making white-space between social media icons */
-.social {
-  display: inline-block;
-  background: #393E46;
-  margin-top: 20px;
-  padding: 20px; 
-}
 .about {
   float:right;
 }
