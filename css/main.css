@@ -4,18 +4,15 @@
 body {
   font-family: 'Open Sans', sans-serif;
   touch-action: pan-y;
-  background-color: #00ADB5;
+  background-color: #eeeeee;
   padding: 10px;  
-}
-.hlink {
-	color: #00ADB5;
 }
 .button {
   border-radius: 4px;
   background-color: #393E46;
-  border: 1px solid white;
+  border: 1px solid #eeeeee;
   border-radius: 2px;
-  color: #FFFFFF;
+  color: #eeeeee;
   text-align: center;
   font-size: 16px;
   padding: 9px;
@@ -45,11 +42,6 @@ body {
   opacity: 1;
   right: 0;
 }
-
-
-
-
-
 p,li {
 	line-height: 160%;
 }
@@ -69,8 +61,7 @@ img {
 /* Changing hypertext color when mouse cursor interacts */
 a:link, a:visited {
   display: inline-block;
-  color: #00ADB5;
-  font-family: Arial;  
+  color: #eeeeee;  
   text-decoration: none;
 }
 a:hover, a:active {
@@ -78,7 +69,7 @@ a:hover, a:active {
 }
 /* Header Title */
 .header {
-  background: #00ADB5;
+  background: #eeeeee;
   margin: -30px;
   padding: 0px;
   text-align: center;
@@ -96,7 +87,7 @@ a:hover, a:active {
 }
 /* Right column */
 .rightcolumn {
-  background-color: #00ADB5;
+  background-color: #eeeeee;
   float: left;
   padding-left: 20px;
   width: 25%;
@@ -169,7 +160,7 @@ to the right side when scrolling */
 }
 .topnav a.active {
   background-color: yellow;
-  color: white;
+  color: #eeeeee;
 }
 .topnav .icon {
   display: none;
@@ -192,7 +183,6 @@ on top of each other instead of next to each other */
   .topnav.responsive {position: sticky;}
   .topnav.responsive .icon {
     position: absolute;
-    
     right: 0;
     top: 0px;
   }
@@ -205,13 +195,11 @@ on top of each other instead of next to each other */
   }
 }
 @media screen and (min-width: 800px) {
-
 }
 /* Responsive layout - when the screen is less
 than 500px wide, make the navigation links stack
 on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
-
 	h1 {
 	  font-size: 150%;	
 	}
