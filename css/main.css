@@ -33,7 +33,7 @@ a:link, a:visited {
 a:hover, a:active {
   color: #ffcc69;
 }
-a:button {
+button:a {
   color: white;
 }
 /* Header Title */
