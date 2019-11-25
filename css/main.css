@@ -33,6 +33,9 @@ a:link, a:visited {
 a:hover, a:active {
   color: #ffcc69;
 }
+a:button {
+  color: white;
+}
 /* Header Title */
 .header {
   background: #b5a26e;
