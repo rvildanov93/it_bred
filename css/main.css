@@ -53,10 +53,10 @@ p,li {
 	line-height: 160%;
 }
 h1 {
-  color: #00ADB5;
+  color: #eeeeee;
 }
 figcaption,h2,h3,h5,h6,p,li {
-  color: white;
+  color: #eeeeee;
 }
 img {
   display: block;
@@ -68,7 +68,7 @@ img {
 /* Changing hypertext color when mouse cursor interacts */
 a:link, a:visited {
   display: inline-block;
-  color: #00ADB5;
+  color: #eeeeee;
   font-family: Arial;  
   text-decoration: none;
 }
@@ -83,7 +83,7 @@ a:hover, a:active {
   text-align: center;
 }
 .header h1 {
-  color: #222831;
+  color: #eeeeee;
   font-size: 55px;
 }
 
