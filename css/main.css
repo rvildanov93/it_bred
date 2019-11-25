@@ -108,11 +108,9 @@ to the right side when scrolling */
   overflow: hidden;
   background-color: #003334;
   position: sticky;
+  z-index: 10;
   top: 0;
   }
-
-	
-	
 .topnav a {
   float: left;
   display: block;
@@ -122,22 +120,17 @@ to the right side when scrolling */
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
 .topnav a.active {
   background-color: yellow;
   color: white;
 }
-
 .topnav .icon {
   display: none;
 }
-
-
 /* Responsive layout - when the screen is less
 than 800px wide, make the two columns stack
 on top of each other instead of next to each other */
