@@ -120,9 +120,6 @@ a:hover, a:active {
   padding: 1px;
   text-align: center;  
 }
-
-
-
 .social {
   background-color: #393E46;
   margin-top: 20px;
@@ -131,13 +128,6 @@ a:hover, a:active {
   text-decoration: none;	
   width: 100%; 
 }
-
-
-img > .social:hover {
-  opacity: 0.7;
-}
-
-
 .about {
   float:right;
 }
