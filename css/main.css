@@ -7,11 +7,6 @@ body {
   background-color: #00ADB5;
   padding: 10px;  
 }
-
-
-.pagination {
-font-color: #222831;
-}
 .pagination a {
   float: left;
   padding: 8px 16px;
@@ -27,8 +22,6 @@ font-color: #222831;
   cursor: not-allowed;
   pointer-events: none;
 }
-
-
 .button {
   border-radius: 4px;
   background-color: #393E46;
