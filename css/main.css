@@ -22,7 +22,10 @@ body {
   font-color: #00ADB5;
 }
 .pagination a:hover:not(.active) {background-color: #222831;}
-
+.isdisabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
 
 
 .button {
