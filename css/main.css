@@ -21,7 +21,7 @@ body {
   background-color: #222831;
   font-color: #00ADB5;
 }
-.pagination a:hover:not(.active) {background-color: #222831;}
+.pagination a:hover:not(.active) {background-color: #393E46;}
 .isdisabled {
   cursor: not-allowed;
   pointer-events: none;
