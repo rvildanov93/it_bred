@@ -7,23 +7,6 @@ body {
   background-color: #00ADB5;
   padding: 10px;  
 }
-
-
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-}
-
-.progress-bar {
-  height: 8px;
-  background: #4caf50;
-  width: 0%;
-}
-
-
-
-
 .pagination a {
   float: left;
   padding: 8px 16px;
