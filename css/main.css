@@ -66,6 +66,15 @@ h1 {
 figcaption,h2,h3,h5,h6,p,li {
   color: #eeeeee;
 }
+
+
+figcaption {
+text-align: center;
+}
+
+
+
+
 img {
   display: block;
   height: auto;
