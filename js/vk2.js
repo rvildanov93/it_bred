@@ -1,1 +1,0 @@
-VK.Widgets.Comments("vk_comments", {limit: 20, attach: false});
