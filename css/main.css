@@ -1,6 +1,41 @@
 * {
   box-sizing: border-box;
 }
+
+
+/*starts here*/
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-vk {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+  background: #3f91cb;
+  color: white;
+}
+/*ends here*/
+
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   touch-action: pan-y;
@@ -66,15 +101,9 @@ h1 {
 figcaption,h2,h3,h5,h6,p,li {
   color: #eeeeee;
 }
-
-
 figcaption {
-text-align: center;
+  text-align: center;
 }
-
-
-
-
 img {
   display: block;
   height: auto;
