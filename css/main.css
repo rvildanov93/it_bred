@@ -142,7 +142,7 @@ a:hover, a:active {
   background-color: #393E46;
   margin-top: 20px;
   padding: 2px;
-  padding: 10px;/*here was 20px*/
+  padding: 15px;/*here was 20px*/
   text-decoration: none;	
   width: 100%; 
 }
