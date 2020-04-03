@@ -1,1 +1,0 @@
-document.getElementsByClassName(footer).innerHTML = "<h6>Copyright &#169; 2019 – 2020 by Ramil Vildanov</h6><h6>All Rights Reserved</h6>";
