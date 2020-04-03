@@ -135,7 +135,7 @@ a:hover, a:active {
 .footer {
   background: #393E46;
   margin-top: 20px;
-  padding: 0px;
+  padding: 1px;
   text-align: center;  
 }
 .social {
