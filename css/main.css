@@ -134,8 +134,7 @@ a:hover, a:active {
 /* Footer/Copyright block */
 .footer {
   background: #393E46;
-  margin-top: 5px;
-  /*margin-top: 20px;*/ 
+  margin-top: 20px;
   padding: 0px;
   text-align: center;  
 }
