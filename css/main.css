@@ -7,6 +7,34 @@ body {
   background-color: #00ADB5;
   padding: 10px;  
 }
+p,li {
+  line-height: 160%;
+}
+h1 {
+  color: #eeeeee;
+}
+figcaption,h2,h3,h5,h6,p,li {
+  color: #eeeeee;
+}
+figcaption {
+  text-align: center;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Changing hypertext color when mouse cursor interacts */
+a:link, a:visited {
+  display: inline-block;
+  color: #eeeeee;  
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #ffcc69;
+}
 .pagination a {
   float: left;
   padding: 8px 16px;
@@ -57,34 +85,6 @@ body {
   opacity: 1;
   right: 0;
 }
-p,li {
-	line-height: 160%;
-}
-h1 {
-  color: #eeeeee;
-}
-figcaption,h2,h3,h5,h6,p,li {
-  color: #eeeeee;
-}
-figcaption {
-  text-align: center;
-}
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* Changing hypertext color when mouse cursor interacts */
-a:link, a:visited {
-  display: inline-block;
-  color: #eeeeee;  
-  text-decoration: none;
-}
-a:hover, a:active {
-  color: #ffcc69;
-}
 /* Header Title */
 .header {
   background: #eeeeee;
@@ -96,7 +96,6 @@ a:hover, a:active {
   color: #eeeeee;
   font-size: 55px;
 }
-
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
@@ -141,8 +140,7 @@ a:hover, a:active {
 .social {
   background-color: #393E46;
   margin-top: 20px;
-  /*padding: 2px;*/
-  padding: 15px;/*here was 20px*/
+  padding: 15px;
   text-decoration: none;	
   width: 100%; 
 }
