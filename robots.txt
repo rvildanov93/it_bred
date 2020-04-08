@@ -34,3 +34,4 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://it-bred.ru/sitemap.xml
+Host: https://it-bred.ru
