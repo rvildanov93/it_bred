@@ -33,4 +33,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: http://it-bred.ru/sitemap.xml
+Sitemap: https://it-bred.ru/sitemap.xml
