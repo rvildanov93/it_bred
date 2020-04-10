@@ -1,2 +1,26 @@
 ‘use strict’;
-importScripts(‘sw-toolbox.js’); toolbox.precache([“index.html”,”style/style.css”]); toolbox.router.get(‘/images/*’, toolbox.cacheFirst); toolbox.router.get(‘/*’, toolbox.networkFirst, { networkTimeoutSeconds: 5});
+importScripts(‘sw-toolbox.js’); toolbox.precache([“index.html”,”css/main.css”,
+“pages/page2.html”,
+“pages/Контакты.html”,
+“pages/О сайте.html”,
+“js/sw.js”,
+“js/topnav.js”,
+“articles/Amazon знает о тебе все.html”,
+“articles/HonorV30.html”,
+“articles/Li-Fi Будущее интернета.html”,
+“articles/MSI GS66 Stealth и GE66 Raider игровые ноутбуки с дисплеями 300 Гц.html”,
+“articles/В 2018 мы наконец стали воспринимать всерьез время, проведенное за смартфоном.html”,
+“articles/Вредно ли оставлять смартфон рядом с собой на ночь.html”,
+“articles/Интернет вещей которые плачут по хорошему UI UX.html”,
+“articles/Интернетизированный человек.html”,
+“articles/Очередная статья о том, как выбрать смартфон.html”,
+“articles/Рефакторинга много не бывает.html”,
+“articles/Сказ о том как наукам компьютерным обучаться.html”,
+“articles/Следующий шаг в обеспечении безопасности аэропортов.html”,
+“articles/Смартфон который ты никогда не купишь доступен для предзаказа за 1300$.html”,
+“articles/Смартфоны Samsung в скором времени получат 1 ТБ внутренней памяти.html”,
+“articles/Цензурирование китайского интернета.html”,
+“articles/Что такое ПО и почему важно это понимать.html”,
+“articles/Эмиграция из Evernote в Google Keep мой личный опыт.html”,
+
+]); toolbox.router.get(‘/images/*’, toolbox.cacheFirst); toolbox.router.get(‘/*’, toolbox.networkFirst, { networkTimeoutSeconds: 5});
