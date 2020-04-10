@@ -23,4 +23,4 @@ importScripts(‘sw-toolbox.js’); toolbox.precache([“index.html”,”css/ma
 “articles/Что такое ПО и почему важно это понимать.html”,
 “articles/Эмиграция из Evernote в Google Keep мой личный опыт.html”,
 
-]); toolbox.router.get(‘/images/*’, toolbox.cacheFirst); toolbox.router.get(‘/*’, toolbox.networkFirst, { networkTimeoutSeconds: 5});
+]); toolbox.router.get(‘/img/*’, toolbox.cacheFirst); toolbox.router.get(‘/*’, toolbox.networkFirst, { networkTimeoutSeconds: 5});
