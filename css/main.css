@@ -186,10 +186,10 @@ to the right side when scrolling */
 .topnav .icon {
   display: none;
 }
-.pagination, .isdisabled {
+.pagination .isdisabled {
   color: #222831;
 }
-.pagination, .inactive {
+.pagination .inactive {
   color: #222831;
 }
 /* Responsive layout - when the screen is less
