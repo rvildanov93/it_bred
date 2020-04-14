@@ -122,7 +122,10 @@ a:hover, a:active {
 .card {
   background-color: #222831;
   margin-top: 20px;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 /* Clear floats after the columns */
 .row:after {
