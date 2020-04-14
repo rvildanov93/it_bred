@@ -186,13 +186,14 @@ to the right side when scrolling */
 .topnav .icon {
   display: none;
 }
-.pagination .isdisabled {
-  color: #222831;
+.isdisabled {
+  color: #ddd;
 }
-.pagination .inactive {
+.inactive {
   color: #ddd;
 }
 .inactive a:hover {
+  background-color: #ddd;
   color: white;
 }
 /* Responsive layout - when the screen is less
