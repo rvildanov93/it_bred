@@ -189,11 +189,8 @@ to the right side when scrolling */
 .pagination .isdisabled {
   color: #222831;
 }
-.pagination .inactive {
-  color: #222831;
-}
-.pagination .inactive a:hover {
-  color: #ffffff;
+.inactive a:hover {
+  color: #ddd;
 }
 /* Responsive layout - when the screen is less
 than 800px wide, make the two columns stack
