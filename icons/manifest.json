@@ -4,7 +4,9 @@
   "lang": "en-US",
   "start_url": "https://it-bred.ru",
   "display": "standalone",
-  
+  "theme_color": "#00ADB5"
+}
+  {
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
