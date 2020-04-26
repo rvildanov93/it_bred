@@ -1,3 +1,10 @@
+@font-face {
+  font-family: mainFont;
+  src: url(https://codinglibrary.online/fonts/Montserrat-Medium.ttf);
+}
+html {
+  font-family: mainFont;
+}
 * {
   box-sizing: border-box;
 }
