@@ -1,14 +1,3 @@
-#disqus_thread {
-  color: black;
-}
-
-
-
-
-
-
-
-
 @font-face {
   font-family: mainFont;
   src: url(https://it-bred.ru/fonts/Montserrat-Medium.ttf);
@@ -217,6 +206,19 @@ to the right side when scrolling */
   background-color: #ddd;
   color: white;
 }
+
+
+#disqus_thread {
+  color: black;
+}
+
+
+
+
+
+
+
+
 /* Responsive layout - when the screen is less
 than 800px wide, make the two columns stack
 on top of each other instead of next to each other */
