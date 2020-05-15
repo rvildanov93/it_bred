@@ -1,181 +1,186 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-<!--metainfo for PWA-->
-<link rel="manifest" href="https://it-bred.ru/icons/manifest.json">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="application-name" content="IT-BRED">
-<meta name="apple-mobile-web-app-title" content="IT-BRED">
-<meta name="msapplication-starturl" content="https://it-bred.ru">
-<meta name="theme-color" content="#00ADB5">
-<meta name="msapplication-navbutton-color" content="#00ADB5">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<!--icons for PWA-->
-<link rel="apple-touch-icon" sizes="57x57" href="https://it-bred.ru/icons/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://it-bred.ru/icons/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://it-bred.ru/icons/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://it-bred.ru/icons/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://it-bred.ru/icons/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://it-bred.ru/icons/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://it-bred.ru/icons/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://it-bred.ru/icons/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://it-bred.ru/icons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https://it-bred.ru/icons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://it-bred.ru/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="https://it-bred.ru/icons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://it-bred.ru/icons/favicon-16x16.png">
-<link rel="manifest" href="https://it-bred.ru/icons/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="https://it-bred.ru/icons/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<meta charset="UTF-8">  
-<meta name="title" content="IT-BRED">
-<meta name = "description" content="Статьи и переводы статей по IT-тематике">
-<meta name = "keywords" content="Технологии, Интернет, Футуризм, Гаджеты">
-<meta name = "author" content="Ramil Vildanov">
-<meta name = "viewport" content="width=device-width, initial-scale=1.0, user-scalable = no, shrink-to-fit=no"/>
-<!--sm sharing metainfo-->
-<meta property="og:title" content="IT-BRED">
-<meta property="og:site_name" content="www.it-bred.ru">
-<meta property="og:url" content="https://it-bred.ru">
-<meta property="og:description" content="Статьи и переводы статей по IT-тематике">
-<meta property="og:locale" content="ru_RU">
-<meta property="og:image" content="https://it-bred.ru/img/other/it-bred-cover.webp">
-<script src="https://it-bred.ru/js/ytag.js"></script>
-<noscript><div><img src="https://mc.yandex.ru/watch/56374405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<title>IT-BRED</title>
-<link rel="shortcut icon" type="image/x-icon" href="https://it-bred.ru/img/other/title-image.png"/>
-<link rel="stylesheet" href="https://it-bred.ru/css/main.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <!--metainfo for PWA-->
+    <link rel="manifest" href="https://it-bred.ru/icons/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="IT-BRED">
+    <meta name="apple-mobile-web-app-title" content="IT-BRED">
+    <meta name="msapplication-starturl" content="https://it-bred.ru">
+    <meta name="theme-color" content="#00ADB5">
+    <meta name="msapplication-navbutton-color" content="#00ADB5">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--icons for PWA-->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://it-bred.ru/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://it-bred.ru/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://it-bred.ru/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://it-bred.ru/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://it-bred.ru/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://it-bred.ru/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://it-bred.ru/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://it-bred.ru/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://it-bred.ru/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://it-bred.ru/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://it-bred.ru/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://it-bred.ru/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://it-bred.ru/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://it-bred.ru/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://it-bred.ru/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="title" content="IT-BRED">
+    <meta name="description" content="Статьи и переводы статей по IT-тематике">
+    <meta name="keywords" content="Технологии, Интернет, Футуризм, Гаджеты">
+    <meta name="author" content="Ramil Vildanov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no, shrink-to-fit=no" />
+    <!--sm sharing metainfo-->
+    <meta property="og:title" content="IT-BRED">
+    <meta property="og:site_name" content="www.it-bred.ru">
+    <meta property="og:url" content="https://it-bred.ru">
+    <meta property="og:description" content="Статьи и переводы статей по IT-тематике">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:image" content="https://it-bred.ru/img/other/it-bred-cover.webp">
+    <script src="https://it-bred.ru/js/ytag.js"></script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/56374405" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <title>IT-BRED</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://it-bred.ru/img/other/title-image.png" />
+    <link rel="stylesheet" href="https://it-bred.ru/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<!--Top navbar-->
-<div class="topnav" id="myTopnav">
-  <a href="https://it-bred.ru">IT-BRED</a>
-  <a href="https://it-bred.ru/pages/Контакты.html">Контакты</a>
-  <a href="#">Проекты</a>
-  <a class="about" href="https://it-bred.ru/pages/О сайте.html">О сайте</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i></a>
-  </div>
-<!--Main part (left column)-->
-<div class="row">
-  <div class="leftcolumn">
-<!--article tizer 1-->
-    <div class="card">      
-      <h5><time datetime="2020-03-28" pubdate>28 марта 2020</time></h5>
-      <h2><a href="https://it-bred.ru/articles/MSI GS66 Stealth и GE66 Raider игровые ноутбуки с дисплеями 300 Гц.html">MSI GS66 Stealth и GE66 Raider ноутбуки с дисплеями 300 Гц</a></h2>
-      <img src="https://it-bred.ru/img/MSI%20GS66%20Stealth%20и%20GE66%20Raider%20игровые%20ноутбуки%20с%20дисплеями%20300%20Гц/cover.jpg" height="200" width="1072.4" alt="MSI GS66 Stealth and GE66 Raider">
-      <p>Компания MSI представила новые игровые ноутбуки на выставке CES 2020. MSI GS66 Stealth имеет строгий и более мейнстримный дизайн по сравнению с остальными продуктами компании, в то время как новый GE66 Raider имеет все отличительные черты истинно геймерского устройства и позиционируется компанией MSI как флагман.</p>
-      <p><a href="https://it-bred.ru/articles/MSI GS66 Stealth и GE66 Raider игровые ноутбуки с дисплеями 300 Гц.html"><button class="button"><span>читать дальше</span></button></a></p>     
+    <!--Top navbar-->
+    <div class="topnav" id="myTopnav">
+        <a href="https://it-bred.ru">IT-BRED</a>
+        <a href="https://it-bred.ru/pages/Контакты.html">Контакты</a>
+        <a href="#">Проекты</a>
+        <a class="about" href="https://it-bred.ru/pages/О сайте.html">О сайте</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
     </div>
-    <!--article tizer 2-->
-    <div class="card">      
-      <h5><time datetime="2019-11-26" pubdate>26 ноября 2019</time></h5>
-      <h2><a href="https://it-bred.ru/articles/HonorV30.html">Honor представила смартфоны V30 и V30 Pro с процессорами Kirin 990</a></h2>
-      <img src="https://it-bred.ru/img/Honor%20V30/cover.jpg" height="200" width="1072.4" alt="honor_V30">
-      <p>Honor анонсировала смартфоны среднего ценового сегмента V30 и V30 Pro. V30 Pro оснащен 6,57-дюймовым экраном с разрешением 1080p с двойным вырезом под фронтальные камеры, напоминающим таковой на Samsung Galaxy S10 Plus. В отличие от Samsung, Honor имеет 8-мегапиксельную широкоугольную камеру для селфи в дополнение к обычному 32-мегапиксельному фронтальному модулю.</p>
-      <p><a href="https://it-bred.ru/articles/HonorV30.html"><button class="button"><span>читать дальше</span></button></a></p>     
+    <!--Main part (left column)-->
+    <div class="row">
+        <div class="leftcolumn">
+            <!--article tizer 1-->
+            <div class="card">
+                <h5><time datetime="2020-03-28" pubdate>28 марта 2020</time></h5>
+                <h2><a href="https://it-bred.ru/articles/MSI GS66 Stealth и GE66 Raider игровые ноутбуки с дисплеями 300 Гц.html">MSI GS66 Stealth и GE66 Raider ноутбуки с дисплеями 300 Гц</a></h2>
+                <img src="https://it-bred.ru/img/MSI%20GS66%20Stealth%20и%20GE66%20Raider%20игровые%20ноутбуки%20с%20дисплеями%20300%20Гц/cover.jpg" height="200" width="1072.4" alt="MSI GS66 Stealth and GE66 Raider">
+                <p>Компания MSI представила новые игровые ноутбуки на выставке CES 2020. MSI GS66 Stealth имеет строгий и более мейнстримный дизайн по сравнению с остальными продуктами компании, в то время как новый GE66 Raider имеет все отличительные черты истинно геймерского устройства и позиционируется компанией MSI как флагман.</p>
+                <p><a href="https://it-bred.ru/articles/MSI GS66 Stealth и GE66 Raider игровые ноутбуки с дисплеями 300 Гц.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 2-->
+            <div class="card">
+                <h5><time datetime="2019-11-26" pubdate>26 ноября 2019</time></h5>
+                <h2><a href="https://it-bred.ru/articles/HonorV30.html">Honor представила смартфоны V30 и V30 Pro с процессорами Kirin 990</a></h2>
+                <img src="https://it-bred.ru/img/Honor%20V30/cover.jpg" height="200" width="1072.4" alt="honor_V30">
+                <p>Honor анонсировала смартфоны среднего ценового сегмента V30 и V30 Pro. V30 Pro оснащен 6,57-дюймовым экраном с разрешением 1080p с двойным вырезом под фронтальные камеры, напоминающим таковой на Samsung Galaxy S10 Plus. В отличие от Samsung, Honor имеет 8-мегапиксельную широкоугольную камеру для селфи в дополнение к обычному 32-мегапиксельному фронтальному модулю.</p>
+                <p><a href="https://it-bred.ru/articles/HonorV30.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 3-->
+            <div class="card">
+                <h5><time datetime="2019-02-04" pubdate>4 февраля 2019</time> &#x2223; Перевод</h5>
+                <h2><a href="https://it-bred.ru/articles/Интернетизированный человек.html">Интернетизированный человек</a></h2>
+                <img src="https://it-bred.ru/img/Интернетизированный%20человек/rfid-hands.png" height="200" width="1072.4" alt="rfid hands">
+                <p>Представьте сырое зернышко риса. А теперь представьте мир, в котором это крошечное рисовое зерно может открыть вам двери, купить продукты и завести машину. Эта крупица размером с рисинку заменит ваш гигантский кошелек и брелок с ключами. Когда вы встречаете кого-то на мероприятии, с помощью рукопожатия вы импортируете его контактную информацию в ваш телефон. </p>
+                <p><a href="https://it-bred.ru/articles/Интернетизированный человек.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 4-->
+            <div class="card">
+                <h5><time datetime="2019-02-01" pubdate>1 февраля 2019</time> &#x2223; Перевод</h5>
+                <h2><a href="https://it-bred.ru/articles/Что такое ПО и почему важно это понимать.html">Что такое ПО и почему важно это понимать</a></h2>
+                <img src="https://it-bred.ru/img/Что%20такое%20ПО%20и%20почему%20важно%20это%20понимать/softwate-tizer.jpg" height="200" width="1072.4" alt="">
+                <p>Программное обеспечение есть во всем и везде. Люди привыкли к вещам, которые мы можем увидеть и потрогать. Мы живем в физическом мире автомобилей, стиральных машин, телефонов и фенов. Все это - аппаратные средства - физические инструменты, машины и оборудование. Аппаратное обеспечение представляет собой реальную материальную физическую сущность, ограниченную определенными характеристиками.</p>
+                <p><a href="https://it-bred.ru/articles/Что такое ПО и почему важно это понимать.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 5-->
+            <div class="card">
+                <h5><time datetime="2019-01-31" pubdate>31 января 2019</time> &#x2223; Перевод</h5>
+                <h2><a href="https://it-bred.ru/articles/Смартфон который ты никогда не купишь доступен для предзаказа за 1300$.html">Смартфон, который ты никогда не купишь, доступен для предзаказа за 1300$</a></h2>
+                <img src="https://it-bred.ru/img/Смартфон%20который%20ты%20никогда%20не%20купишь%20доступен%20для%20предзаказа%20за%201300/meizu_cover.jpg" height="200" width="1072.4" alt="Meizu Zero">
+                <p>Если вы питаете интерес ко всяким безумным штукам, вроде смартфона Meizu Zero, у которого нет ни одного порта или кнопки, то теперь вы можете предварительно заказать его на <a href="https://www.indiegogo.com/projects/meizu-zero-world-s-first-holeless-phone#/">Indiegogo</a> за 1299 $. Поставки ограничены, так как компания сейчас продает только 100 единиц устройств.</p>
+                <p><a href="https://it-bred.ru/articles/Смартфон который ты никогда не купишь доступен для предзаказа за 1300$.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 6-->
+            <div class="card">
+                <h5><time datetime="2019-01-31" pubdate>31 января 2019</time> &#x2223; Перевод</h5>
+                <h2><a href="https://it-bred.ru/articles/Смартфоны Samsung в скором времени получат 1 ТБ внутренней памяти.html">Смартфоны Samsung в скором времени получат 1 ТБ внутренней памяти</a></h2>
+                <img src="https://it-bred.ru/img/Смартфоны%20Samsung%20в%20скором%20времени%20получат%201%20ТБ%20внутренней%20памяти/smartphones_cover.jpg" height="200" width="1072.4" alt="Meizu Zero">
+                <p>Надоела нехватка дискового пространства на вашем телефоне, заполненном приложениями, фотографиями и видео? Когда-нибудь в ближайшем будущем смартфоны будет поставляться с более чем одним терабайтом внутренней памяти которая будет работать в 10 раз быстрее, чем SD-карточка.</p>
+                <p><a href="https://it-bred.ru/articles/Смартфоны Samsung в скором времени получат 1 ТБ внутренней памяти.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 7-->
+            <div class="card">
+                <h5><time datetime="2019-01-30" pubdate>30 января 2019</time></h5>
+                <h2><a href="https://it-bred.ru/articles/Эмиграция из Evernote в Google Keep мой личный опыт.html">Эмиграция из Evernote в Google Keep: мой личный опыт</a></h2>
+                <img src="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/evernote-tizer.png" height="200" width="1072.4" alt="evernote to gkeep">
+                <p>Хочу поделиться своим опытом переезда из одного очень удобного (но зазнавшегося) заметочника, в другой (менее функциональный, но более бережно относящийся к объему моего кошелька и консервативности в отношении выбора версии операционной системы).</p>
+                <p><a href="https://it-bred.ru/articles/Эмиграция из Evernote в Google Keep мой личный опыт.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 8-->
+            <div class="card">
+                <h5><time datetime="2019-01-27" pubdate>27 января 2019</time> &#x2223; Перевод</h5>
+                <h2><a href="https://it-bred.ru/articles/Рефакторинга много не бывает.html">Рефакторинга много не бывает</a></h2>
+                <img src="https://it-bred.ru/img/Рефакторинга%20много%20не%20бывает/refactoring-tizer.jpg" height="200" width="1072.4" alt="refactoring">
+                <p>Я очень завишу от рефакторинга, и не боюсь признать это, но есть только одна проблема: я всегда делал это задом наперед. Видите ли, то, что я делал, можно было бы точнее описать как преждевременную абстракцию кода.</p>
+                <p><a href="https://it-bred.ru/articles/Рефакторинга много не бывает.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 9-->
+            <div class="card">
+                <h5><time datetime="2019-01-26" pubdate>26 января 2019</time></h5>
+                <h2><a href="https://it-bred.ru/articles/Сказ о том как наукам компьютерным обучаться.html">Сказ о том, как наукам компьютерным обучаться</a></h2>
+                <img src="https://it-bred.ru/img/Сказ%20о%20том%20как%20наукам%20компьютерным%20обучаться/cscover.jpg" height="200" width="1072.4" alt="cs-learning">
+                <p>На дворе 2019 год. Теперь каждый дядя Вася <strike>гикбрейнс, нетология, хекслет, html-академия</strike> из деревни Пупкино
+                    считает своим долгом научить тебя программировать на Python за умеренную плату или делать сайт на вордпрессе за 5 минут.</p>
+                <p><a href="https://it-bred.ru/articles/Сказ о том как наукам компьютерным обучаться.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <!--article tizer 10-->
+            <div class="card">
+                <h5><time datetime="2019-01-24" pubdate>24 января 2019</time> &#x2223; Перевод</h5>
+                <h2><a href="https://it-bred.ru/articles/Amazon знает о тебе все.html">Amazon знает о тебе все</a></h2>
+                <img src="https://it-bred.ru/img/Amazon%20знает%20о%20тебе%20все/amazon.webp" height="200" width="1072.4" alt="amazon">
+                <p>Когда сеть центров физиотерапии города Сиэтл захотела привлечь новых пациентов, она нацелила онлайн-рекламу на людей, живущих или работающих возле своих офисов, которые недавно купили наколенники на Amazon.
+                    Когда поставщик финансовых услуг захотел продвигать свой бизнес по пенсионному консультированию, он направил рекламу людям в возрасте 40 – 50 лет, которые недавно заказали у Amazon книгу по личным финансам.</p>
+                <p><a href="https://it-bred.ru/articles/Amazon знает о тебе все.html"><button class="button"><span>читать дальше</span></button></a></p>
+            </div>
+            <br>
+            <!--pagination-->
+            <div class="pagination">
+                <div class="isdisabled"><a href="">&laquo;</a></div>
+                <a style="pointer-events: none;" class="active" href="">1</a>
+                <div class="inactive"><a href="https://it-bred.ru/pages/page2.html">2</a></div>
+                <div class="inactive"><a href="https://it-bred.ru/pages/page2.html">&raquo;</a></div>
+            </div>
+        </div>
+        <!--Right columns (sticky)-->
+        <div class="rightcolumn sticky">
+            <!--Popular articles-->
+            <div class="popular">
+                <h3>Популярное</h3>
+                <p><strong><a href="https://it-bred.ru/articles/Li-Fi Будущее интернета.html">Li-Fi: Будущее интернета</a></strong></p>
+                <p><strong><a href="https://it-bred.ru/articles/Очередная статья о том, как выбрать смартфон.html">Очередная статья о том, как выбрать смартфон</a></strong></p>
+                <p><strong><a href="https://it-bred.ru/articles/Интернет вещей которые плачут по хорошему UI UX.html">Интернет вещей… которые плачут по хорошему UI / UX</a></strong></p>
+            </div>
+            <!--Social media block-->
+            <div class="social">
+                <h3>Подписывайся</h3>
+                <a href="https://twitter.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Twitter.png" height="50" width="50" alt="Twitter logo"></a>
+                <a href="https://github.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Github.png" height="50" width="50" alt="GitHub logo"></a>
+                <a href="https://vk.com/it_bred" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Vk.png" height="50" width="50" alt="Vkontakte logo"></a>
+            </div>
+        </div>
     </div>
-<!--article tizer 3-->    
-    <div class="card">
-      <h5><time datetime="2019-02-04" pubdate>4 февраля 2019</time> &#x2223; Перевод</h5>
-      <h2><a href="https://it-bred.ru/articles/Интернетизированный человек.html">Интернетизированный человек</a></h2>
-      <img src="https://it-bred.ru/img/Интернетизированный%20человек/rfid-hands.png" height="200" width="1072.4" alt="rfid hands">
-      <p>Представьте сырое зернышко риса. А теперь представьте мир, в котором это крошечное рисовое зерно может открыть вам двери, купить продукты и завести машину. Эта крупица размером с рисинку заменит ваш гигантский кошелек и брелок с ключами. Когда вы встречаете кого-то на мероприятии, с помощью рукопожатия вы импортируете его контактную информацию в ваш телефон. </p>
-      <p><a href="https://it-bred.ru/articles/Интернетизированный человек.html"><button class="button"><span>читать дальше</span></button></a></p>
-      </div>    
-<!--article tizer 4-->
-    <div class="card">
-      <h5><time datetime="2019-02-01" pubdate>1 февраля 2019</time> &#x2223; Перевод</h5>
-      <h2><a href="https://it-bred.ru/articles/Что такое ПО и почему важно это понимать.html">Что такое ПО и почему важно это понимать</a></h2>
-      <img src="https://it-bred.ru/img/Что%20такое%20ПО%20и%20почему%20важно%20это%20понимать/softwate-tizer.jpg" height="200" width="1072.4" alt="">
-      <p>Программное обеспечение есть во всем и везде. Люди привыкли к вещам, которые мы можем увидеть и потрогать. Мы живем в физическом мире автомобилей, стиральных машин, телефонов и фенов. Все это - аппаратные средства - физические инструменты, машины и оборудование. Аппаратное обеспечение представляет собой реальную материальную физическую сущность, ограниченную определенными характеристиками.</p>
-      <p><a href="https://it-bred.ru/articles/Что такое ПО и почему важно это понимать.html"><button class="button"><span>читать дальше</span></button></a></p>     
+    <!--Footer/Copyright bottom block-->
+    <div class="footer">
+        <h6>Copyright &#169; 2019 – 2020 by Ramil Vildanov</h6>
+        <h6>All Rights Reserved</h6>
     </div>
-<!--article tizer 5-->
-    <div class="card">
-      <h5><time datetime="2019-01-31" pubdate>31 января 2019</time> &#x2223; Перевод</h5>
-      <h2><a href="https://it-bred.ru/articles/Смартфон который ты никогда не купишь доступен для предзаказа за 1300$.html">Смартфон, который ты никогда не купишь, доступен для предзаказа за 1300$</a></h2>
-      <img src="https://it-bred.ru/img/Смартфон%20который%20ты%20никогда%20не%20купишь%20доступен%20для%20предзаказа%20за%201300/meizu_cover.jpg" height="200" width="1072.4" alt="Meizu Zero">
-      <p>Если вы питаете интерес ко всяким безумным штукам, вроде смартфона Meizu Zero, у которого нет ни одного порта или кнопки, то теперь вы можете предварительно заказать его на <a href="https://www.indiegogo.com/projects/meizu-zero-world-s-first-holeless-phone#/">Indiegogo</a> за 1299 $. Поставки ограничены, так как компания сейчас продает только 100 единиц устройств.</p>
-      <p><a href="https://it-bred.ru/articles/Смартфон который ты никогда не купишь доступен для предзаказа за 1300$.html"><button class="button"><span>читать дальше</span></button></a></p>     
-    </div>
-<!--article tizer 6-->
-    <div class="card">
-      <h5><time datetime="2019-01-31" pubdate>31 января 2019</time> &#x2223; Перевод</h5>
-      <h2><a href="https://it-bred.ru/articles/Смартфоны Samsung в скором времени получат 1 ТБ внутренней памяти.html">Смартфоны Samsung в скором времени получат 1 ТБ внутренней памяти</a></h2>
-      <img src="https://it-bred.ru/img/Смартфоны%20Samsung%20в%20скором%20времени%20получат%201%20ТБ%20внутренней%20памяти/smartphones_cover.jpg" height="200" width="1072.4" alt="Meizu Zero">
-      <p>Надоела нехватка дискового пространства на вашем телефоне, заполненном приложениями, фотографиями и видео? Когда-нибудь в ближайшем будущем смартфоны будет поставляться с более чем одним терабайтом внутренней памяти которая будет работать в 10 раз быстрее, чем SD-карточка.</p>
-      <p><a href="https://it-bred.ru/articles/Смартфоны Samsung в скором времени получат 1 ТБ внутренней памяти.html"><button class="button"><span>читать дальше</span></button></a></p>     
-    </div>
-<!--article tizer 7-->
-    <div class="card">
-      <h5><time datetime="2019-01-30" pubdate>30 января 2019</time></h5>
-      <h2><a href="https://it-bred.ru/articles/Эмиграция из Evernote в Google Keep мой личный опыт.html">Эмиграция из Evernote в Google Keep: мой личный опыт</a></h2>
-      <img src="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/evernote-tizer.png" height="200" width="1072.4" alt="evernote to gkeep">
-      <p>Хочу поделиться своим опытом переезда из одного очень удобного (но зазнавшегося) заметочника, в другой (менее функциональный, но более бережно относящийся к объему моего кошелька и консервативности в отношении выбора версии операционной системы).</p>
-      <p><a href="https://it-bred.ru/articles/Эмиграция из Evernote в Google Keep мой личный опыт.html"><button class="button"><span>читать дальше</span></button></a></p>     
-    </div>
-<!--article tizer 8--> 
-    <div class="card">
-      <h5><time datetime="2019-01-27" pubdate>27 января 2019</time> &#x2223; Перевод</h5>
-      <h2><a href="https://it-bred.ru/articles/Рефакторинга много не бывает.html">Рефакторинга много не бывает</a></h2>
-      <img src="https://it-bred.ru/img/Рефакторинга%20много%20не%20бывает/refactoring-tizer.jpg" height="200" width="1072.4" alt="refactoring">
-      <p>Я очень завишу от рефакторинга, и не боюсь признать это, но есть только одна проблема: я всегда делал это задом наперед. Видите ли, то, что я делал, можно было бы точнее описать как преждевременную абстракцию кода.</p>
-      <p><a href="https://it-bred.ru/articles/Рефакторинга много не бывает.html"><button class="button"><span>читать дальше</span></button></a></p>    
-    </div>    
-    <!--article tizer 9-->
-    <div class="card">
-      <h5><time datetime="2019-01-26" pubdate>26 января 2019</time></h5>
-      <h2><a href="https://it-bred.ru/articles/Сказ о том как наукам компьютерным обучаться.html">Сказ о том, как наукам компьютерным обучаться</a></h2>
-      <img src="https://it-bred.ru/img/Сказ%20о%20том%20как%20наукам%20компьютерным%20обучаться/cscover.jpg" height="200" width="1072.4" alt="cs-learning">
-      <p>На дворе 2019 год. Теперь каждый дядя Вася <strike>гикбрейнс, нетология, хекслет, html-академия</strike> из деревни Пупкино
-        считает своим долгом научить тебя программировать на Python за умеренную плату или делать сайт на вордпрессе за 5 минут.</p>
-        <p><a href="https://it-bred.ru/articles/Сказ о том как наукам компьютерным обучаться.html"><button class="button"><span>читать дальше</span></button></a></p>     
-    </div>   
-<!--article tizer 10-->
-    <div class="card">
-      <h5><time datetime="2019-01-24" pubdate>24 января 2019</time> &#x2223; Перевод</h5>
-      <h2><a href="https://it-bred.ru/articles/Amazon знает о тебе все.html">Amazon знает о тебе все</a></h2>
-      <img src="https://it-bred.ru/img/Amazon%20знает%20о%20тебе%20все/amazon.webp" height="200" width="1072.4" alt="amazon">
-      <p>Когда сеть центров физиотерапии города Сиэтл захотела привлечь новых пациентов, она нацелила онлайн-рекламу на людей, живущих или работающих возле своих офисов, которые недавно купили наколенники на Amazon.
-        Когда поставщик финансовых услуг захотел продвигать свой бизнес по пенсионному консультированию, он направил рекламу людям в возрасте 40 – 50 лет, которые недавно заказали у Amazon книгу по личным финансам.</p>
-      <p><a href="https://it-bred.ru/articles/Amazon знает о тебе все.html"><button class="button"><span>читать дальше</span></button></a></p>     
-    </div>
-<br>
-<!--pagination-->
-<div class="pagination">
-  <div class = "isdisabled"><a href="">&laquo;</a></div>
-  <a style="pointer-events: none;"class="active" href="">1</a>
-  <div class = "inactive"><a href="https://it-bred.ru/pages/page2.html">2</a></div>
-  <div class = "inactive"><a href="https://it-bred.ru/pages/page2.html">&raquo;</a></div>
-</div>
-</div>
-<!--Right columns (sticky)-->
-<div class="rightcolumn sticky">
-  <!--Popular articles-->
-   <div class="popular">
-      <h3>Популярное</h3>      
-      <p><strong><a href="https://it-bred.ru/articles/Li-Fi Будущее интернета.html">Li-Fi: Будущее интернета</a></strong></p>
-      <p><strong><a href="https://it-bred.ru/articles/Очередная статья о том, как выбрать смартфон.html">Очередная статья о том, как выбрать смартфон</a></strong></p>
-      <p><strong><a href="https://it-bred.ru/articles/Интернет вещей которые плачут по хорошему UI UX.html">Интернет вещей… которые плачут по хорошему UI / UX</a></strong></p>
-    </div>
-<!--Social media block-->
-      <div class = "social">
-      <h3>Подписывайся</h3>
-      <a href="https://twitter.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Twitter.png" height="50" width="50" alt="Twitter logo"></a>
-      <a href="https://github.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Github.png" height="50"width = "50" alt="GitHub logo"></a>
-      <a href="https://vk.com/it_bred" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Vk.png" height="50"width = "50" alt="Vkontakte logo"></a>
-    </div>
-  </div>
-</div>
-<!--Footer/Copyright bottom block-->
-<div class="footer">
-  <h6>Copyright &#169; 2019 – 2020 by Ramil Vildanov</h6>
-  <h6>All Rights Reserved</h6>
-</div>
-<script src="https://it-bred.ru/js/topnav.js"></script>
+    <script src="https://it-bred.ru/js/topnav.js"></script>
 </body>
+
 </html>

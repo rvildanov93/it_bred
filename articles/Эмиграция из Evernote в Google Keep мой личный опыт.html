@@ -1,112 +1,121 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <!--metainfo for PWA-->
-  <link rel="manifest" href="https://it-bred.ru/icons/manifest.json">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="IT-BRED">
-  <meta name="apple-mobile-web-app-title" content="IT-BRED">
-  <meta name="msapplication-starturl" content="https://it-bred.ru">
-  <meta name="theme-color" content="#00ADB5">
-  <meta name="msapplication-navbutton-color" content="#00ADB5">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta charset="UTF-8">
-  <meta name="title" content="Эмиграция из Evernote в Google Keep: мой личный опыт">
-  <meta name = "description" content="Эмиграция из Evernote в Google Keep: мой личный опыт">
-  <meta name = "keywords" content="Evernote,Google Keep,Заметочник,Android">
-  <meta name = "author" content="Ramil Vildanov">
-  <meta name = "viewport" content="width=device-width, initial-scale=1.0, user-scalable = no"/>
-  <!--sm sharing metainfo-->
-  <meta property="og:title" content="Эмиграция из Evernote в Google Keep: мой личный опыт">
-  <meta property="og:site_name" content="www.it-bred.ru">
-  <meta property="og:url" content="https://it-bred.ru/articles/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт.html">
-  <meta property="og:description" content="Хочу поделиться своим опытом переезда из одного очень удобного (но зазнавшегося) заметочника, в другой (менее функциональный, но более бережно относящийся к объему моего кошелька и консервативности в отношении выбора версии операционной системы).">
-  <meta property="og:type" content="article">
-  <meta property="og:image" content="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/sm_cover_evernote.jpg">
-  <meta property="og:locale" content="ru_RU">
-  <script src="https://it-bred.ru/js/ytag.js"></script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/56374405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <title>Эмиграция из Evernote в Google Keep: мой личный опыт</title>
-  <link rel="shortcut icon" type="image/x-icon" href="https://it-bred.ru/img/other/title-image.png"/>  
-  <link rel="stylesheet" href="https://it-bred.ru/css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--metainfo for PWA-->
+    <link rel="manifest" href="https://it-bred.ru/icons/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="IT-BRED">
+    <meta name="apple-mobile-web-app-title" content="IT-BRED">
+    <meta name="msapplication-starturl" content="https://it-bred.ru">
+    <meta name="theme-color" content="#00ADB5">
+    <meta name="msapplication-navbutton-color" content="#00ADB5">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta charset="UTF-8">
+    <meta name="title" content="Эмиграция из Evernote в Google Keep: мой личный опыт">
+    <meta name="description" content="Эмиграция из Evernote в Google Keep: мой личный опыт">
+    <meta name="keywords" content="Evernote,Google Keep,Заметочник,Android">
+    <meta name="author" content="Ramil Vildanov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no" />
+    <!--sm sharing metainfo-->
+    <meta property="og:title" content="Эмиграция из Evernote в Google Keep: мой личный опыт">
+    <meta property="og:site_name" content="www.it-bred.ru">
+    <meta property="og:url" content="https://it-bred.ru/articles/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт.html">
+    <meta property="og:description" content="Хочу поделиться своим опытом переезда из одного очень удобного (но зазнавшегося) заметочника, в другой (менее функциональный, но более бережно относящийся к объему моего кошелька и консервативности в отношении выбора версии операционной системы).">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/sm_cover_evernote.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <script src="https://it-bred.ru/js/ytag.js"></script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/56374405" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <title>Эмиграция из Evernote в Google Keep: мой личный опыт</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://it-bred.ru/img/other/title-image.png" />
+    <link rel="stylesheet" href="https://it-bred.ru/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<!--Top navbar-->
-<div class="topnav" id="myTopnav">
-  <a href="https://it-bred.ru">IT-BRED</a>
-  <a href="https://it-bred.ru">Главная</a>
-  <a href="https://it-bred.ru/pages/Контакты.html">Контакты</a>
-  <a href="#">Проекты</a>
-  <a class="about" href="https://О сайте.html">О сайте</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i></a>
-</div>
-<!--Main part (left column)-->
-<div class="row">
-  <div class="leftcolumn">
-<!--Article header-->
-      <div class="card">
-      <h5><time datetime="2019-01-30" pubdate>30 января 2019</time></h5>
-      <h1>Эмиграция из Evernote в Google Keep: мой личный опыт</h1>
-<!--Article body-->     
-<img src="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/evernote-tizer.png" class="center" alt="evernote vs gkeep">
-<p>Хочу поделиться своим опытом переезда из одного очень удобного (но зазнавшегося) заметочника, в другой (менее функциональный, но более бережно относящийся к объему моего кошелька и консервативности в отношении выбора версии операционной системы).</p>
-<p>Я пользовался Evernote порядка четырех лет, с тех пор как поступил в университет. До этого использовал стандартный заметочник на телефоне и блокнот на ПК. Изменилась ли моя жизнь после перехода на Evernote - несомненно. Эволюция - это как правило долгий процесс, но я буквально эволюционировал от Homo erectus до Homo sapiens сразу после того, как установил клиенты зеленого слоника на телефон и ноутбук.</p>
-<img src="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/1.png" height="360" width="515" class="center" alt="прогресс заметочников">
-<p>Не нужно было держать в голове тонны информации (названия предметов, фамилии преподавателей, шпаргалки к контрольным). «Да для этого ведь обычная тетрадь есть»‎ - скажет дядя Вася из села Пупкино, и будет прав, но заметочник, который находится всегда при тебе, и позволяет за считанные секунды получить доступ к необходимой сохраненной ранее информации, это все таки немного другой экспириенс.</p>
-<p>Я гораздо чаще писал конспекты в Evernote, чем в тетрадях, благо функциональность встроенного текстового редактора позволяла мне (относительно) разгуляться в их форматировании. Также у меня не было необходимости в использовании стороннего тудушника, т.к. эвернот справлялся и с этой задачей. Я никогда не называл себя образованным или рационально-мыслящим человеком, поэтому и все пароли я хранил там же, среди заметок, просто подписывая их тегом «пароль»‎ (про 1Password я слышал, но до его использования дело так и не дошло). Бесплатная функциональность заметочника меня вполне устраивала, т.к. я не использовал его более чем на двух устройствах одновременно. Но беда пришла откуда ее не ждали: мобильное приложение на моем телефоне начало очень сильно глючить: при запуске приложения приходилось ждать целых <s>гуголплекс лет</s> 6 секунд, да и сохранение заметок с их синхронизацией стали занимать гораздо больше времени. Понимаю, что это было связано с устаревшей версией андроид 4.2 (да, я осознаю что старпер, но при перепрошивке на более новую версию, я не смогу пользоваться банковскими приложениями, что для меня весьма критично). Спустя некоторое время поддержка устройств с моей версией операционной системы прекратилась вовсе.</p>
-<h2>Поиск альтернатив</h2>
-<p>Пришлось выбирать альтернативу, коих в моем случае (допотопная версия ОС) кроме Google Keep и не имелось вовсе. (OneNote не столь лоялен к таким староверам, как я). Итак, я установил новое приложение с желтой иконкой на телефон - и о чудо - оно работает так же шустро, как и студент, за ночь перед сдачей курсовой. Мне очень понравилась возможность цветовой категоризации заметок: на каждый комплект тегов у меня имеется определенный цвет. Среди минусов стоит отметить отсутствие иерархической структуры тегов: в Google Keep список тегов расположен в левой боковой панельке, а также отсутствие десктопного клиента (я частично решил эту проблему, установив расширение для браузера).</p>
-<img src="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/2.png" height="360" width="515" class="center" alt="скриншот gkeep">
-<p>Google Keep совершенно бесплатный (хотя я и за Evernote не платил, но все же), но у него нет возможности применить темную тему оформления (надеюсь, что ее завезут в скором времени).</p>
-<p>Перечислю мои субъективные плюсы и минусы Google Keep по сравнению с Evernote.</p>
-<h3>Плюсы</h3>
-<ul><li>Цветовое выделение заметок.</li>
-<li>Поддержка допотопной версии Android.</li>
-<li>Быстродействие мобильного приложения.</li></ul>
-<h3>Минусы</h3> 
-<ul><li>Меньшая функциональность.</li>
-<li>Отсутствие темной темы оформления.</li>
-<li>Более скудный уровень иерархии тегов.</li></ul>
-<h2>Собственно переезд</h2>
-<p>Я не нашел способа перенести заметки из Evernote в Google Keep напрямую, поэтому перенес все для начала на свой гугл диск. Для переезда понадобилось создать аккаунт в сервисе <a id="yellow-font-color" href="https://www.cloudhq.net/evernote">cloudHQ</a>. Создав аккаунт, нужно выбрать связку приложений для работы, в моем случае — это Evernote и Google Drive. Затем остается выбрать одностороннюю синхронизацию. Для этого нужно кликнуть на стрелку между иконками сервисов и выбрать папку для переноса заметок. К сожалению, заметки переносятся в формате PDF, поэтому их удобно лишь просматривать — редактировать нельзя.</p>
-<h2>Итог</h2>
-<p>Согласно <a href="https://droidbug.com/statistika-raspredeleniya-versiy-os-android-za-oktyabr-2018/">данному ресурсу</a> на Октябрь 2018-го Android версии 4.2 установлен лишь на 1,5 % устройствах. Учитывая этот аспект можно лишь похлопать тем разработчикам, которые поддерживают это меньшинство пользователей.</p>
-<p>Google Keep это достаточно удобный заметочник со всем необходимым среднестатистическому пользователю функционалом. Я сомневаюсь что в ближайшее время у него появится клиент для ПК, а кроме этого у него ведь и нет существенных недостатков по сравнению с Evernote.</p>
-<p>В статье я описал свой опыт перехода, и, надеюсь, что она была хоть чуточку полезной для некоторого количества пользователей, имеющих те же ограничения что и я.</p>
-</div>
-<!--DISQUS 1st script-->
-<div id="disqus_thread"></div>
-<script src="https://it-bred.ru/js/disqus.js"></script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-<!--Right columns (sticky)-->
- <div class="rightcolumn sticky">
-  <!--Popular articles-->
-    <div class="popular">
-      <h3>Популярное</h3>      
-      <p><strong><a href="https://it-bred.ru/articles/Li-Fi Будущее интернета.html">Li-Fi: Будущее интернета</a></strong></p>
-      <p><strong><a href="https://it-bred.ru/articles/Очередная статья о том, как выбрать смартфон.html">Очередная статья о том, как выбрать смартфон</a></strong></p>
-      <p><strong><a href="https://it-bred.ru/articles/Интернет вещей которые плачут по хорошему UI UX.html">Интернет вещей… которые плачут по хорошему UI / UX</a></strong></p>
+    <!--Top navbar-->
+    <div class="topnav" id="myTopnav">
+        <a href="https://it-bred.ru">IT-BRED</a>
+        <a href="https://it-bred.ru">Главная</a>
+        <a href="https://it-bred.ru/pages/Контакты.html">Контакты</a>
+        <a href="#">Проекты</a>
+        <a class="about" href="https://О сайте.html">О сайте</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
     </div>
-<!--Social media block-->
-<div class="social">
-      <h3>Подписывайся</h3>
-      <a href="https://twitter.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Twitter.png" height="50" width="50" alt="Twitter logo"></a>
-      <a href="https://github.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Github.png" height="50"width = "50" alt="GitHub logo"></a>
-      <a href="https://vk.com/it_bred" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Vk.png" height="50"width = "50" alt="Vkontakte logo"></a>
+    <!--Main part (left column)-->
+    <div class="row">
+        <div class="leftcolumn">
+            <!--Article header-->
+            <div class="card">
+                <h5><time datetime="2019-01-30" pubdate>30 января 2019</time></h5>
+                <h1>Эмиграция из Evernote в Google Keep: мой личный опыт</h1>
+                <!--Article body-->
+                <img src="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/evernote-tizer.png" class="center" alt="evernote vs gkeep">
+                <p>Хочу поделиться своим опытом переезда из одного очень удобного (но зазнавшегося) заметочника, в другой (менее функциональный, но более бережно относящийся к объему моего кошелька и консервативности в отношении выбора версии операционной системы).</p>
+                <p>Я пользовался Evernote порядка четырех лет, с тех пор как поступил в университет. До этого использовал стандартный заметочник на телефоне и блокнот на ПК. Изменилась ли моя жизнь после перехода на Evernote - несомненно. Эволюция - это как правило долгий процесс, но я буквально эволюционировал от Homo erectus до Homo sapiens сразу после того, как установил клиенты зеленого слоника на телефон и ноутбук.</p>
+                <img src="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/1.png" height="360" width="515" class="center" alt="прогресс заметочников">
+                <p>Не нужно было держать в голове тонны информации (названия предметов, фамилии преподавателей, шпаргалки к контрольным). «Да для этого ведь обычная тетрадь есть»‎ - скажет дядя Вася из села Пупкино, и будет прав, но заметочник, который находится всегда при тебе, и позволяет за считанные секунды получить доступ к необходимой сохраненной ранее информации, это все таки немного другой экспириенс.</p>
+                <p>Я гораздо чаще писал конспекты в Evernote, чем в тетрадях, благо функциональность встроенного текстового редактора позволяла мне (относительно) разгуляться в их форматировании. Также у меня не было необходимости в использовании стороннего тудушника, т.к. эвернот справлялся и с этой задачей. Я никогда не называл себя образованным или рационально-мыслящим человеком, поэтому и все пароли я хранил там же, среди заметок, просто подписывая их тегом «пароль»‎ (про 1Password я слышал, но до его использования дело так и не дошло). Бесплатная функциональность заметочника меня вполне устраивала, т.к. я не использовал его более чем на двух устройствах одновременно. Но беда пришла откуда ее не ждали: мобильное приложение на моем телефоне начало очень сильно глючить: при запуске приложения приходилось ждать целых <s>гуголплекс лет</s> 6 секунд, да и сохранение заметок с их синхронизацией стали занимать гораздо больше времени. Понимаю, что это было связано с устаревшей версией андроид 4.2 (да, я осознаю что старпер, но при перепрошивке на более новую версию, я не смогу пользоваться банковскими приложениями, что для меня весьма критично). Спустя некоторое время поддержка устройств с моей версией операционной системы прекратилась вовсе.</p>
+                <h2>Поиск альтернатив</h2>
+                <p>Пришлось выбирать альтернативу, коих в моем случае (допотопная версия ОС) кроме Google Keep и не имелось вовсе. (OneNote не столь лоялен к таким староверам, как я). Итак, я установил новое приложение с желтой иконкой на телефон - и о чудо - оно работает так же шустро, как и студент, за ночь перед сдачей курсовой. Мне очень понравилась возможность цветовой категоризации заметок: на каждый комплект тегов у меня имеется определенный цвет. Среди минусов стоит отметить отсутствие иерархической структуры тегов: в Google Keep список тегов расположен в левой боковой панельке, а также отсутствие десктопного клиента (я частично решил эту проблему, установив расширение для браузера).</p>
+                <img src="https://it-bred.ru/img/Эмиграция%20из%20Evernote%20в%20Google%20Keep%20мой%20личный%20опыт/2.png" height="360" width="515" class="center" alt="скриншот gkeep">
+                <p>Google Keep совершенно бесплатный (хотя я и за Evernote не платил, но все же), но у него нет возможности применить темную тему оформления (надеюсь, что ее завезут в скором времени).</p>
+                <p>Перечислю мои субъективные плюсы и минусы Google Keep по сравнению с Evernote.</p>
+                <h3>Плюсы</h3>
+                <ul>
+                    <li>Цветовое выделение заметок.</li>
+                    <li>Поддержка допотопной версии Android.</li>
+                    <li>Быстродействие мобильного приложения.</li>
+                </ul>
+                <h3>Минусы</h3>
+                <ul>
+                    <li>Меньшая функциональность.</li>
+                    <li>Отсутствие темной темы оформления.</li>
+                    <li>Более скудный уровень иерархии тегов.</li>
+                </ul>
+                <h2>Собственно переезд</h2>
+                <p>Я не нашел способа перенести заметки из Evernote в Google Keep напрямую, поэтому перенес все для начала на свой гугл диск. Для переезда понадобилось создать аккаунт в сервисе <a id="yellow-font-color" href="https://www.cloudhq.net/evernote">cloudHQ</a>. Создав аккаунт, нужно выбрать связку приложений для работы, в моем случае — это Evernote и Google Drive. Затем остается выбрать одностороннюю синхронизацию. Для этого нужно кликнуть на стрелку между иконками сервисов и выбрать папку для переноса заметок. К сожалению, заметки переносятся в формате PDF, поэтому их удобно лишь просматривать — редактировать нельзя.</p>
+                <h2>Итог</h2>
+                <p>Согласно <a href="https://droidbug.com/statistika-raspredeleniya-versiy-os-android-za-oktyabr-2018/">данному ресурсу</a> на Октябрь 2018-го Android версии 4.2 установлен лишь на 1,5 % устройствах. Учитывая этот аспект можно лишь похлопать тем разработчикам, которые поддерживают это меньшинство пользователей.</p>
+                <p>Google Keep это достаточно удобный заметочник со всем необходимым среднестатистическому пользователю функционалом. Я сомневаюсь что в ближайшее время у него появится клиент для ПК, а кроме этого у него ведь и нет существенных недостатков по сравнению с Evernote.</p>
+                <p>В статье я описал свой опыт перехода, и, надеюсь, что она была хоть чуточку полезной для некоторого количества пользователей, имеющих те же ограничения что и я.</p>
+            </div>
+            <!--DISQUS 1st script-->
+            <div id="disqus_thread"></div>
+            <script src="https://it-bred.ru/js/disqus.js"></script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+        <!--Right columns (sticky)-->
+        <div class="rightcolumn sticky">
+            <!--Popular articles-->
+            <div class="popular">
+                <h3>Популярное</h3>
+                <p><strong><a href="https://it-bred.ru/articles/Li-Fi Будущее интернета.html">Li-Fi: Будущее интернета</a></strong></p>
+                <p><strong><a href="https://it-bred.ru/articles/Очередная статья о том, как выбрать смартфон.html">Очередная статья о том, как выбрать смартфон</a></strong></p>
+                <p><strong><a href="https://it-bred.ru/articles/Интернет вещей которые плачут по хорошему UI UX.html">Интернет вещей… которые плачут по хорошему UI / UX</a></strong></p>
+            </div>
+            <!--Social media block-->
+            <div class="social">
+                <h3>Подписывайся</h3>
+                <a href="https://twitter.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Twitter.png" height="50" width="50" alt="Twitter logo"></a>
+                <a href="https://github.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Github.png" height="50" width="50" alt="GitHub logo"></a>
+                <a href="https://vk.com/it_bred" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Vk.png" height="50" width="50" alt="Vkontakte logo"></a>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<!--Footer/Copyright bottom block-->
-<div class="footer">
-  <h6>Copyright &#169; 2019 – 2020 by Ramil Vildanov</h6>
-  <h6>All Rights Reserved</h6>
-</div>
-<script src="https://it-bred.ru/js/topnav.js"></script>
-<!--DISQUS 2nd script-->
-<script id="dsq-count-scr" src="//it-bred-ru.disqus.com/count.js" async></script>
+    <!--Footer/Copyright bottom block-->
+    <div class="footer">
+        <h6>Copyright &#169; 2019 – 2020 by Ramil Vildanov</h6>
+        <h6>All Rights Reserved</h6>
+    </div>
+    <script src="https://it-bred.ru/js/topnav.js"></script>
+    <!--DISQUS 2nd script-->
+    <script id="dsq-count-scr" src="//it-bred-ru.disqus.com/count.js" async></script>
 </body>
+
 </html>
