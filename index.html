@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-        <!--metainfo for PWA-->
+    <!--metainfo for PWA-->
     <link rel="manifest" href="https://it-bred.ru/icons/manifest.json">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -56,7 +56,12 @@
 <body>
     <!--Top navbar-->
     <div class="topnav" id="myTopnav">
-            <div w3-include-html="https://it-bred.ru/structure/navbar.html"></div>
+        <a href="https://it-bred.ru">IT-BRED</a>
+        <a href="https://it-bred.ru/pages/Контакты.html">Контакты</a>
+        <a href="#">Проекты</a>
+        <a class="about" href="https://it-bred.ru/pages/О сайте.html">О сайте</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
     </div>
     <!--Main part (left column)-->
     <div class="row">
@@ -146,28 +151,36 @@
             <br>
             <!--pagination-->
             <div class="pagination">
-                <div w3-include-html="https://it-bred.ru/structure/pagination.html"></div> 
+                <div class="isdisabled"><a href="">&laquo;</a></div>
+                <a style="pointer-events: none;" class="active" href="">1</a>
+                <div class="inactive"><a href="https://it-bred.ru/pages/page2.html">2</a></div>
+                <div class="inactive"><a href="https://it-bred.ru/pages/page2.html">&raquo;</a></div>
             </div>
         </div>
         <!--Right columns (sticky)-->
         <div class="rightcolumn sticky">
             <!--Popular articles-->
             <div class="popular">
-                <div w3-include-html="https://it-bred.ru/structure/popular.html"></div> 
+                <h3>Популярное</h3>
+                <p><strong><a href="https://it-bred.ru/articles/Li-Fi Будущее интернета.html">Li-Fi: Будущее интернета</a></strong></p>
+                <p><strong><a href="https://it-bred.ru/articles/Очередная статья о том, как выбрать смартфон.html">Очередная статья о том, как выбрать смартфон</a></strong></p>
+                <p><strong><a href="https://it-bred.ru/articles/Интернет вещей которые плачут по хорошему UI UX.html">Интернет вещей… которые плачут по хорошему UI / UX</a></strong></p>
             </div>
             <!--Social media block-->
             <div class="social">
-                <div w3-include-html="https://it-bred.ru/structure/social.html"></div> 
+                <h3>Подписывайся</h3>
+                <a href="https://twitter.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Twitter.png" height="50" width="50" alt="Twitter logo"></a>
+                <a href="https://github.com/rvildanov93" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Github.png" height="50" width="50" alt="GitHub logo"></a>
+                <a href="https://vk.com/it_bred" target="_blank" rel="noreferrer"><img src="https://it-bred.ru/img/social%20media%20icons/Vk.png" height="50" width="50" alt="Vkontakte logo"></a>
             </div>
         </div>
     </div>
     <!--Footer/Copyright bottom block-->
     <div class="footer">
-        <div w3-include-html="https://it-bred.ru/structure/footer.html"></div> 
+        <h6>Copyright &#169; 2019 – 2020 by Ramil Vildanov</h6>
+        <h6>All Rights Reserved</h6>
     </div>
     <script src="https://it-bred.ru/js/topnav.js"></script>
-    <script src="https://it-bred.ru/js/include.js"></script>
-    <script>includeHTML();</script>
 </body>
 
 </html>
