@@ -42,9 +42,6 @@ a:link, a:visited {
 a:hover, a:active {
   color: #ffcc69;
 }
-.sm-icon img {
-  display: inline;
-}
 .pagination a {
   float: left;
   padding: 8px 16px;
