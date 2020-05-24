@@ -42,13 +42,9 @@ a:link, a:visited {
 a:hover, a:active {
   color: #ffcc69;
 }
-
 img.smicon {
   display: inline;
   margin-left: 8px;
-}
-img.smicon:hover {
-  background-color: #ccc;
 }
 .pagination a {
   float: left;
