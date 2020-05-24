@@ -42,7 +42,7 @@ a:link, a:visited {
 a:hover, a:active {
   color: #ffcc69;
 }
-.sm-icon {
+.sm-icon img {
   display: inline;
 }
 .pagination a {
